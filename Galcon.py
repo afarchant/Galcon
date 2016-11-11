@@ -13,14 +13,12 @@ def makeOrder(planets, ships, turnNumber, myID):
     ship = []
     turnnum = []
     ID = []
-    for planet in self.planets:
-        if planet.planetOwner == 1:
+    for planet in planets:
+        if planet.planetOwner == MyID:
             myplan.append[planet]
-        elif planet.planetOwner == 2:
-            planene.append[planet]
+        elif planet.planetOwner == 0:
+            planeut.append[planet]
         else:
             planene.append[planet]
 
-    
-        
      
