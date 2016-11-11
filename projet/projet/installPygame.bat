@@ -1,0 +1,1 @@
+echo y | conda install -c CogSci pygame=1.9.2
